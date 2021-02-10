@@ -1,0 +1,72 @@
+/*css for tribute page*/
+body {
+    background-color: lightgray;
+    font-display: block;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-family: "Times Ne Roman", Georgia, Times, monospace, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo1 {
+    float: left;
+    margin: .9em .6em 0 1em;
+}
+#logo2 {
+    float: right;
+    margin: .5em .6em 0 .75em;
+}
+#img-div {
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.timeline {
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+}
+ul {
+    max-width: 650px;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto 50 auto;
+    line-height: 2;
+}
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+    display: block;
+}
+blockquote {
+    line-height: 1.4;
+    border: 1px solid gray;
+    padding: 1em;
+    box-shadow: 5px 10px;
+    border-radius: 20px;
+}
+p {
+    line-height: 24px;
+    font-style: italic;
+}
+#training {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Didot", Helvetica, sans-serif;
+}
+.small {
+    font-size: .8em;
+    text-align: center;
+    font-family: monospace;
+    margin-top: 0;
+}
+#img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
